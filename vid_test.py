@@ -12,7 +12,7 @@ device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 test_video_path = 'LR/test1.mp4'
 output_video_path = 'results/output_video.avi'
-frames_folder = 'frames'
+# frames_folder = 'frames'
 os.makedirs(frames_folder, exist_ok=True)
 
 
