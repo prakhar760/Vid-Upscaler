@@ -2,7 +2,7 @@
 
 ## NOTE
 - It is recommended to run the run the code on a cuda supported system with GPU memory or a GPU server to get much faster processing.
-- The model may not provide good enough results hence I'll be needing to train the model on my custom dataset which will require GPU server support.
+- The model may not provide good enough results hence I'll be needing to train the model on my custom dataset in future which will require GPU server support.
 - The `ESRGAN` Pre-Trained model that i could get is working fine with some image data but it worked badly with the video provided.
 
 ## Testing Guide
