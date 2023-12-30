@@ -20,7 +20,8 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 pip install torch torchvision torchaudio # for non-CUDA support system
 ```
 - Python packages:  `pip install -r requirements.txt`
-
+<br>
+<br>
 2. Put your own **low-resolution images** in `LR` folder. 
 3. Run `vid_test.py` for a video file `OR` `test.py` for an image file.
 ```
