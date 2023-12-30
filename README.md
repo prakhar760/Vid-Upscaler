@@ -22,6 +22,8 @@ pip install torch torchvision torchaudio # for non-CUDA support system
 - Python packages:  `pip install -r requirements.txt`<br><br>
 2. Put your own **low-resolution images** in `LR` folder. <br>
 3. Run `vid_test.py` for a video file `OR` `test.py` for an image file.<br>
+#### NOTE
+In case of video file, before running `vid_test.py` go to **line 13** and put the name of your video file(eg. if your video is named as `Prakhar.mp4` change the line to `test_video_path = 'Prakhar.mp4'`
 ```
 python vid_test.py
 python test.py
