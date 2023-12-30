@@ -8,8 +8,8 @@ python -m venv venv
 .\venv\Scripts\activate
 ```
 - PyTorch >= 1.0 (CUDA version >= 7.5 if installing with CUDA) 
-`pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118` (for CUDA Supported system).
-`pip3 install torch torchvision torchaudio` (for non-CUDA support system).
+1. `pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118` (for CUDA Supported system).
+2. `pip3 install torch torchvision torchaudio` (for non-CUDA support system).
 
 - Python packages:  `pip install -r requirements.txt`
 
