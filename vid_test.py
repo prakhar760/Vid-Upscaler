@@ -10,7 +10,7 @@ from RRDBNet_arch import RRDBNet
 model_path = 'models/RRDB_ESRGAN_x4.pth'  # models/RRDB_ESRGAN_x4.pth OR models/RRDB_PSNR_x4.pth
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
-test_video_path = 'LR/test1.mp4'
+test_video_path = 'LR/*'
 output_video_path = 'results/output_video.avi'
 # frames_folder = 'frames'
 os.makedirs(frames_folder, exist_ok=True)
